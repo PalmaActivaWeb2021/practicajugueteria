@@ -3,18 +3,33 @@ body{
     font-family: sans-serif;
     background-color: #F5F5F5;
     color: #454545;
+
+    /* FLEXBOX */
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+    width: 1440px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#navegador{
+    /* FLEXBOX = h1 y nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 a{
     color: #454545;
     text-decoration: none;
 }
+nav a:nth-child(2){
+    margin: 0px 10px;
+}
 ul{
     list-style-type: none;
     padding: 0;
 }
-h1{
-    display: inline-block;
-}
-nav{
-    display: inline-block;
+img{
+    width: 100%;
 }
